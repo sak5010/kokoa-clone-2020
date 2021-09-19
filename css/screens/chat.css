@@ -92,3 +92,71 @@
   margin-right: 0;
   margin-left: 5px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
+
+.reply__column:last-child > i {
+  right: 54px;
+}
+
+.reply__column__button {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+.reply__column i {
+  opacity: 0.5;
+}
+
+.reply__column__button i {
+  color: var(--color-main);
+  opacity: 0.9;
+}
+
+.reply__column__button:focus,
+.reply__column__button:active {
+  outline: none;
+}
+
+.reply__column input {
+  height: 36px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.03);
+  font-size: 18px;
+  /* padding-left: 15px; */
+}
+
+.reply__column input::placeholder {
+  padding-left: 15px;
+}
