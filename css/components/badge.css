@@ -9,3 +9,11 @@
   color: white;
   font-weight: 600;
 }
+
+.badge-sm {
+  display: block;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
