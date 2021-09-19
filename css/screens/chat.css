@@ -1,3 +1,7 @@
-.chat-screen .user-component {
-  margin-bottom: 15px;
+.alt-header__column:last-child i:first-child {
+  margin-right: 14px;
+}
+
+#chat-screen {
+  background-color: #abc1d1;
 }
