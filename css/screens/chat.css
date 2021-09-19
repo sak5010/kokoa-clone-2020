@@ -1,7 +1,32 @@
-.alt-header__column:last-child i:first-child {
-  margin-right: 14px;
-}
-
 #chat-screen {
   background-color: #abc1d1;
+  height: 1000vh;
+}
+
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-chat {
+  margin-top: 105px;
+}
+
+.chat__timestamp {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.1);
 }
