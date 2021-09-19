@@ -1,0 +1,64 @@
+.more-screen .user-component__column:last-child {
+  color: var(--color-main);
+  opacity: 0.9;
+}
+
+.more-screen .icon-row {
+  margin-top: 30px;
+}
+
+.not-full {
+  justify-content: left;
+}
+
+.more-suggestions {
+  margin-top: 40px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-screen .icon-row__icon {
+  font-size: 14px;
+}
+
+.icon-row__icon {
+  position: relative;
+}
+
+.icon-row__icon i {
+  font-size: 32px;
+}
+
+.icon-row__icon .badge-sm {
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 25px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more-suggestions__icon span {
+  color: var(--gray-md);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.more-suggestions__icon-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}

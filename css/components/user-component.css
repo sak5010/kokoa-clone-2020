@@ -39,6 +39,11 @@
   color: var(--gray-md);
 }
 
+.user-component__subtitle i {
+  color: tomato;
+  opacity: 0.8;
+}
+
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
   display: flex;
