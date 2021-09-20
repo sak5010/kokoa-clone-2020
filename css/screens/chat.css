@@ -133,7 +133,7 @@
   padding: 6px 20px;
   box-sizing: border-box;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child,
