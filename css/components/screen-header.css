@@ -24,6 +24,19 @@
   color: #2e363e;
 }
 
+@keyframes lotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: lotateCog 2s linear infinite;
+}
+
 .screen-header__noti {
   position: absolute;
   right: -8px;
