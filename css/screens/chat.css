@@ -54,6 +54,9 @@
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: snapMessage 0.5s ease-in-out forwards;
 }
 
 .message-row img {
@@ -103,6 +106,21 @@
   background-color: var(--yellow);
   margin-right: 0;
   margin-left: 5px;
+}
+
+@keyframes snapMessage {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.message-row:last-child {
+  transform: translateX(100px);
+  animation-delay: 0.3s;
 }
 
 .reply {
