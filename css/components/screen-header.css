@@ -33,8 +33,56 @@
   }
 }
 
+@keyframes sizingSearch {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes upDownMusic {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes transComment {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2) translateY(-5px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .screen-header__icons .fa-cog:hover {
   animation: lotateCog 2s linear infinite;
+}
+
+.screen-header__icons .fa-search:hover {
+  animation: sizingSearch 1s linear infinite;
+}
+
+.screen-header__icons .fa-music:hover {
+  animation: upDownMusic 1s linear infinite;
+}
+
+.screen-header__icons .fa-comment-dots:hover {
+  animation: transComment 1s linear infinite;
 }
 
 .screen-header__noti {
